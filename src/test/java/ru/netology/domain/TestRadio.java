@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestRadio {
     Radio radio = new Radio(30);
 
-
     @Test
     void volumeChangeBeforeUpperLimit() {
 
